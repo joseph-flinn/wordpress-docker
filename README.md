@@ -18,5 +18,8 @@ STAGING_URL=url.staging
 WORDPRESS_DIR=wordpress_directory
 ```
 
-This can be copied to an .env file and saved locally. The .env file is ignored 
-by git so that secrets are not shared with the rest of the world.
+This can be copied to an .env file and saved locally and the values changed to
+your specific environment variables (technically it would still work if all of 
+the values are left as is, but better to be more production ready). The .env 
+file is ignored by git so that secrets are not shared with the rest of the 
+world.
